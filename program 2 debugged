@@ -1,0 +1,21 @@
+#include <stdio.h>
+int avg(int a, int b)
+{int g;
+g=a+b/2;
+return g;
+}
+int bec(int c, int d,int e)
+{int f;
+f=c+d+e/2;
+return f;
+}
+int main()
+{
+    int ans;
+    
+    ans = avg(4,5);
+    printf("Average of the numbers is: %d",ans);
+
+    
+}
+
